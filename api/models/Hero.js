@@ -1,7 +1,7 @@
 module.exports = {
   attributes: {
     name: {
-      type: "",
+      type: "string",
       required: true,
     },
     power: {

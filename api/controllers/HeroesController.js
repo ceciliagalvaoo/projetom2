@@ -1,3 +1,4 @@
+// heroescontroller.js
 module.exports = {
   list: async (req, res) => {
     const heroes = await Hero.find();
